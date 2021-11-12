@@ -61,6 +61,8 @@ button:hover {
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     padding-bottom: 10px;
+    position: relative;
+    z-index: 1;
 }
 
 .locations:hover .popover {
