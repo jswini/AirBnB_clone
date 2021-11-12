@@ -40,10 +40,16 @@ article {
     right: 20px;
     text-align: center;
     line-height: 60px;
+    font-size: 30px;
+    color: #FF5A5F
 }
 
 .max_guest, .number_rooms, .number_bathrooms {
     width: 100px;
+}
+
+.user, .description {
+    text-align: left;
 }
 
 .guest_img {
