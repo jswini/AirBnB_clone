@@ -63,7 +63,11 @@ button:hover {
     padding-bottom: 10px;
 }
 
-.locations:hover .popover{
+.locations:hover .popover {
+    display: block;
+}
+
+.amenities:hover .popover {
     display: block;
 }
 
