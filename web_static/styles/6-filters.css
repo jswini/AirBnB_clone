@@ -1,0 +1,72 @@
+.filters {
+    background-color: #FFFFFF;
+    color: #484848;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+
+.filters button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: 0px;
+    border-radius: 4px;
+    float: right;
+    position: relative;
+    cursor: default;
+    margin-right: 30px;
+    margin-left: auto;
+    line-height: 50%;
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+.locations {
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    text-align: left;
+}
+
+.amenities {
+    height: 100%;
+    width: 25%;
+    text-align: left;
+}
+
+.filters h3 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-left: 20%;
+    }
+
+.filters h4 {
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+
+.popover {
+    background-color: #FAFAFA;
+    display: none;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding-bottom: 10px;
+}
+
+.locations:hover .popover{
+    display: block;
+}
+
+ul, li {
+    list-style-type: none;
+}
